@@ -1,0 +1,7 @@
+x=input("Enter  octal number :")
+x1=int(x,8)
+r1=bin(x1)
+y=input("Enter   hexadecimal number :")
+y1=int(y,16)
+r2=bin(y1)
+print(r1+r2)
